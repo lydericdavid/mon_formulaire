@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>formulaire TD</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <main>
+        <div class="form">
+            <form action="test.html" method="POST">
+
+
+                <h2>Renseignements</h2>
+
+                <fieldset>
+                    <!-- civilité-->
+                    <!-- quand j'étais jeune -->
+
+                    <legend>Civilité</legend>
+
+                    <label for="nom">Nom</label>
+                    <input type="text" name="nom" id="name" autofocus required placeholder="votre Nom">
+
+                    <label for="prenom">Prénom</label>
+                    <input type="text" name="prenom" id="prenom" placeholder="votre Prénom">
+                    <label for="datenaiss">Date de Naissance</label>
+                    <input type="date" name="date" id="date" placeholder="ex:07/01/1985">
+
+                    <label for="email">Adresse E-mail</label>
+                    <input type="email" name="email" id="email">
+                    <label for="ville">Ville</label>
+                    <input type="text" name="ville" id="ville"> <br>
+
+
+                    <!-- boutton sexe-->
+
+                    <label for="sexe">sexe :</label>
+
+
+                    <input type="radio" name="radio" value="femme" id="femme">
+                    <label for="femme">Femme</label>
+
+                    <input type="radio" name="radio" value="homme" id="homme">
+                    <label for="homme">Homme</label>
+                </fieldset>
+
+
+
+                <!-- formation -->
+
+                <fieldset>
+                    <legend>Formation</legend>
+                    <label for="dernier diplome">Dernier diplome</label>
+                    <select name="derneir diplome" id="dernier diplome" class="formation">
+                                   <option value="aucun">aucun</option>
+                                   <option value="BAc">Bac</option>
+                                   <option value="Bac +1">Bac +1</option>
+                                   <option value="Bac +2">Bac +2</option>
+                                   <option value="LicenceIII" selected>Licence III</option>
+                                   <option value="Master I">Master I</option>
+                                   <option value="Master II">Master II</option>
+                                   <option value="Doctorat">Doctorat</option>
+                                </select>
+
+                    <p>
+                        <label for="centre d'interet ">centre d'interet :</label>
+                    </p>
+
+                    <!-- boutton centre interet-->
+
+                    <input type="checkbox" name="checkbox" id="musique"><br>
+                    <label for="musique">musique</label>
+
+                    <input type="checkbox" name="checkbox" id="sport"><br>
+                    <label for="sport">sport</label>
+                    <input type="checkbox" name="checkbox" id="lecture">
+                    <label for="lecture">lecture</label> <br>
+
+                    <p>
+                        <label for="commentaire">commentaire :</label>
+                    </p>
+                    <textarea name="commenter" id="commenter" cols="30" rows="10" maxlength="100">
+
+                                        </textarea>
+                    <p>
+                        <input type="checkbox" name="confirmation" id="confirmation">
+                        <label for="j'accepte"> <small> j'accepte les conditions et la politique d'utilisation</small></label>
+                    </p>
+                    <input type="submit" value="envoyé" class="bouton">
+
+
+
+                </fieldset>
+
+
+            </form>
+
+
+
+
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+body{
+    background-color:hsl(93, 49%, 83%);
+    font-size: 16;
+    text-align: justify;
+    margin: 10px;
+    font-size: 1.em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.intro{
+    text-align: center;
+    border: solid 1px;
+    color: indianred;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    border: solid 1px;
+    color: #000;
+    padding: 10px;
+}
+.bouton {
+    height: 4vw;
+    width: 10%;
+    background-color: rgb(162, 219, 233);
+}
+.formation {
+    height: 3vw;
+    width: 10%;
+    background-color: rgb(162, 219, 233);
+    border-radius: 5px;
+}
